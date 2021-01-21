@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addNote } from './actions';
-import { NewNote } from './components/NewNote';
+import { NewNote } from './NewNote';
 import { NotesState } from './notesReducer';
 
 function App() {
